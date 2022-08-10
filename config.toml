@@ -2,6 +2,12 @@ baseURL = 'https://ondra.sluka.cz/'
 languageCode = 'en-us'
 title = 'Ondřej Sluka'  # TODO
 theme = 'hugo-coder'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   math = true
 
