@@ -23,7 +23,7 @@ url = "https://github.com/ondras12345/"
 
 [[params.social]]
 name = "Home Assistant community"
-#icon = "fa fa-homeassistant fa-2x"  # TODO HA favicon
+icon = "custom-icon custom-icon-homeassistant"
 weight = 2
 url = "https://community.home-assistant.io/u/ondras12345/summary"
 

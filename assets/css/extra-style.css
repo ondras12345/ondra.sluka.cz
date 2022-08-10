@@ -5,3 +5,16 @@ details[open] {
     padding-left: 4px;
     border-left: 4px solid #6272a4;
 }
+
+.custom-icon:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.custom-icon.custom-icon-homeassistant:before {
+    background-image: url(https://www.home-assistant.io/images/favicon-192x192.png);
+}
