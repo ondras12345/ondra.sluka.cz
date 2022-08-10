@@ -2,6 +2,7 @@ baseURL = 'https://ondra.sluka.cz/'
 languageCode = 'en-us'
 title = 'Ondřej Sluka'  # TODO
 theme = 'hugo-coder'
+author = "Ondřej Sluka"
 
 [markup]
   [markup.goldmark]
