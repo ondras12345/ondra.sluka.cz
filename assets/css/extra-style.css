@@ -1,0 +1,7 @@
+details {
+    padding-left: 8px;
+}
+details[open] {
+    padding-left: 4px;
+    border-left: 4px solid #6272a4;
+}

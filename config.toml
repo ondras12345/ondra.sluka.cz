@@ -9,6 +9,7 @@ theme = 'hugo-coder'
       unsafe = true
 
 [params]
+  customCSS = ["css/extra-style.css"]
   math = true
 
 [[params.social]]
