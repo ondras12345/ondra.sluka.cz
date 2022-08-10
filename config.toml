@@ -2,3 +2,34 @@ baseURL = 'https://ondra.sluka.cz/'
 languageCode = 'en-us'
 title = 'Ondřej Sluka'  # TODO
 theme = 'hugo-coder'
+[params]
+  math = true
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/ondras12345/"
+
+# TODO gitlab ??
+
+[[params.social]]
+name = "Home Assistant community"
+#icon = "fa fa-homeassistant fa-2x"  # TODO HA favicon
+weight = 2
+url = "https://community.home-assistant.io/u/ondras12345/summary"
+
+[[params.social]]
+name = "RSS"
+icon = "fa fa-rss fa-2x"
+weight = 3
+url = "/index.xml"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
