@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2021-02-09T15:47:41+02:00
 title = "Making an Ugee HY1060 Graphics Tablet (UC-LOIC TABLET 1060) Work in Ubuntu 20.04"
 description = ""
@@ -301,7 +301,7 @@ UC-LOIC TABLET 1060 Pen                     id=28    [slave  pointer  (2)]
 </details>
 
 <details>
-<summary>Relevant part of Xorg log:</summary>
+<summary>Relevant part of Xorg log</summary>
 
 ```text
 > cat ~/.local/share/xorg/Xorg.0.log
@@ -693,7 +693,7 @@ id-input:modalias:input:b0003v04B3p301Ee0100-e0,1,2,4*
  ID_INPUT_POINTINGSTICK=1
 ```
 
-It does not just match the pad. It matches the pen, too!
+It does not match just the pad. It matches the pen, too!
 For now, this is how I fixed it:
 ```ini
 > cat /etc/udev/hwdb.d/61-input-id-local.hwdb
