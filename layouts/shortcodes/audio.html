@@ -1,0 +1,5 @@
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls src="{{ .Get "src" }}">
+</audio>
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
