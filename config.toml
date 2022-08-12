@@ -2,7 +2,6 @@ baseURL = 'https://ondra.sluka.cz/'
 languageCode = 'en-us'
 title = 'Ondřej Sluka'  # TODO
 theme = 'hugo-coder'
-author = "Ondřej Sluka"
 
 [markup]
   [markup.goldmark]
@@ -10,6 +9,7 @@ author = "Ondřej Sluka"
       unsafe = true
 
 [params]
+  author = "Ondřej Sluka"
   customCSS = ["css/extra-style.css"]
   math = true
 
