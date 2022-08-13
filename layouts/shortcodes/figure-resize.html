@@ -1,0 +1,36 @@
+{{ $src := .Get "src" }}
+{{ if and
+  (or (in (.Get "src") ".jpg") (in (.Get "src") ".jpeg"))
+  (not (in (.Get "src") "http"))
+}}
+  {{ $image := .Page.Resources.GetMatch (.Get "src") }}
+  {{ $image = $image.Fit (.Get "resize" | default "600x600 q75") }}
+  {{ $src = $image.RelPermalink }}
+{{ end }}
+
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  <a href="{{ .Get "src" }}">
+    <img src="{{ $src }}"
+         {{- if or (.Get "alt") (.Get "caption") }}
+         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+         {{- end -}}
+         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+    /><!-- Closing img tag -->
+  </a>
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <figcaption>
+            {{ with (.Get "title") -}}
+                <h4>{{ . }}</h4>
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- end }}
+        </figcaption>
+    {{- end }}
+</figure>
