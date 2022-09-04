@@ -8,7 +8,7 @@ authors = []
 tags = ["IT", "electronics"]
 categories = []
 externalLink = ""
-series = []
+series = ["favicon"]
 +++
 {{< figure-resize resize="1024x1024" src="featured.jpg" width="100%" >}}
 

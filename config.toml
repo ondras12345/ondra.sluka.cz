@@ -19,6 +19,9 @@ theme = 'hugo-coder'
   colorScheme = "auto"
   hideColorSchemeToggle = false
 
+[taxonomies]
+  series = "series" # TODO change "see also in <>"
+
 [[params.social]]
 name = "Github"
 icon = "fa fa-github fa-2x"
