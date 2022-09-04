@@ -10,6 +10,8 @@ theme = 'hugo-coder'
 
 [params]
   author = "Ondřej Sluka"
+  keywords = "blog,electronics"
+  avatarURL = "images/avatar.jpg"
   customCSS = ["css/extra-style.css"]
   math = true
   colorScheme = "auto"
