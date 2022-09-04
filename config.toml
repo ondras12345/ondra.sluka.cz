@@ -12,6 +12,8 @@ theme = 'hugo-coder'
   author = "Ondřej Sluka"
   customCSS = ["css/extra-style.css"]
   math = true
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
 
 [[params.social]]
 name = "Github"
