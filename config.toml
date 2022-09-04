@@ -1,5 +1,6 @@
 baseURL = 'https://ondra.sluka.cz/'
-languageCode = 'en-us'
+languageCode = 'en'
+defaultContentLanguage = "en"
 title = 'Ondřej Sluka'  # TODO
 theme = 'hugo-coder'
 
