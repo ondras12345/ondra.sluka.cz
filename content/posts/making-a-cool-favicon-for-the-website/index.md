@@ -5,8 +5,8 @@ title = "Making a Cool Favicon for the Website"
 description = ""
 slug = ""
 authors = []
-tags = ["IT", "electronics"]
-categories = []
+tags = ["audio", "oscilloscope"]
+categories = ["electronics"]
 externalLink = ""
 series = ["favicon"]
 +++

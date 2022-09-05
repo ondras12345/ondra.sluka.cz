@@ -5,8 +5,8 @@ title = "Making an Ugee HY1060 Graphics Tablet (UC-LOIC TABLET 1060) Work in Ubu
 description = ""
 slug = ""
 authors = []
-tags = ["IT", "linux"]
-categories = []
+tags = ["GNU/Linux"]
+categories = ["software"]
 externalLink = ""
 series = []
 +++

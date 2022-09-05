@@ -5,8 +5,8 @@ title = "List of Free Software I Use"
 description = ""
 slug = ""
 authors = []
-tags = ["IT", "FOSS"]
-categories = []
+tags = ["FOSS", "GNU/Linux"]
+categories = ["software"]
 externalLink = ""
 series = []
 +++

@@ -5,8 +5,8 @@ title = "Rooting my PocketBook Ultra 650"
 description = ""
 slug = ""
 authors = []
-tags = ["electronics", "linux"]
-categories = ["software"]
+tags = ["GNU/Linux"]
+categories = ["electronics", "software"]
 externalLink = ""
 series = []
 +++
