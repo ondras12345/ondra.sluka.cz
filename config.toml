@@ -20,7 +20,10 @@ theme = 'hugo-coder'
   hideColorSchemeToggle = false
 
 [taxonomies]
-  series = "series" # TODO change "see also in <>"
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
 
 [[params.social]]
 name = "Github"
