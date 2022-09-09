@@ -50,10 +50,14 @@ theme = 'hugo-coder'
   weight = 1
   url  = "posts/"  # TODO put ISO8601 date in names of blog posts
 [[menu.main]]
-  name = "Software"
+  name = "Projects"
   weight = 2
+  url = "projects/"
+[[menu.main]]
+  name = "Software"
+  weight = 3
   url = "software/"
 [[menu.main]]
   name = "About"
-  weight = 3
+  weight = 4
   url = "about/"

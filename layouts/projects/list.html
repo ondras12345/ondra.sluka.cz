@@ -1,0 +1,36 @@
+{{ define "title" }}
+  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container list">
+    <h1 class="title">
+      <a class="title-link" href="{{ .Permalink | safeURL }}">
+        {{ title (i18n (lower .Title)) | default .Title }}
+      </a>
+    </h1>
+    {{ .Content }}
+    {{- range .Paginator.Pages.ByTitle -}}
+      <!-- TODO CSS image next to text -->
+      <hr>
+      <div style="height: 200px">
+        {{ if .Param "featured_image" }}
+        {{ $image := .Resources.GetMatch (.Param "featured_image") }}
+        {{ $image = $image.Fit "200x200 q75" }}
+        <img src="{{ $image.RelPermalink }}" alt="" style="float: left; margin-right: 15px">
+        {{ end }}
+        <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+        <p>
+        {{/* description must be set but empty to get .Summary, otherwise site-global description from config.toml is used. */}}
+        {{ with .Param "description" }}
+            {{/* safeHTML is needed to get things like &ndash; to work */}}
+            {{ . | safeHTML }}
+        {{ else }}
+            {{ .Summary }}
+        {{ end }}
+        </p>
+      </div>
+    {{- end -}}
+
+    {{ partial "pagination.html" . }}
+  </section>
+{{ end }}
