@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2022-08-10T00:29:22+02:00
 title = "List of Free Software I Use"
 description = ""
@@ -10,7 +10,6 @@ categories = ["software"]
 externalLink = ""
 series = []
 +++
-
 This is an (incomplete) list of the great free software I use.
 
 > “Free software” means software that respects users' freedom and community.
@@ -37,7 +36,9 @@ No proprietary garbage will be included in this list.
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) terminal emulator and serial console
 - [GNU Octave](https://www.gnu.org/software/octave/index) scientific programming language
 - [Doxygen](https://doxygen.nl/) documentation generator
+{{< todo >}}
 - TODO Jupyter notebook
+{{< /todo >}}
 
 
 ### Document creation
@@ -62,18 +63,19 @@ No proprietary garbage will be included in this list.
 - [Grbl](https://github.com/gnea/grbl) CNC machine firmware
 - [Candle](https://github.com/Denvi/Candle) Grbl controler
 - [FreeCAD](https://www.freecadweb.org/) 3D CAD modeler
-- TODO maybe link to CNC page
+{{< todo >}}
+- TODO maybe link to CNC page -->
+{{< /todo >}}
 
 ### Home automation
 - [Home Assistant](https://www.home-assistant.io/)
 - [MQTT IO](https://github.com/flyte/mqtt-io) for exposing RPi GPIO via MQTT
+{{< todo >}}
 - TODO separate page for HA
+{{< /todo >}}
 
 ### Others
 - [Hugo](https://gohugo.io/) static webpage generator
 - [Vimium](https://github.com/philc/vimium) web browser plugin for Vim-like key bindings
 - [Termux](https://termux.com/) Android terminal emulator with standard Linux packages
 - ...
-
-
-TODO make this a proper static page (not a blog post)

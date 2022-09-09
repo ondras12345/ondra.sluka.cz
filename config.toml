@@ -48,8 +48,12 @@ url = "/index.xml"
 [[menu.main]]
   name = "Blog"
   weight = 1
-  url  = "posts/"
+  url  = "posts/"  # TODO put ISO8601 date in names of blog posts
+[[menu.main]]
+  name = "Software"
+  weight = 2
+  url = "software/"
 [[menu.main]]
   name = "About"
-  weight = 2
+  weight = 3
   url = "about/"
