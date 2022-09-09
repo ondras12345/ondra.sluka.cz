@@ -2,13 +2,13 @@
 title: "NG1620-BL Lab Bench Power Supply"
 date: 2020-12-14T12:07:00+02:00
 draft: false
-description: "Modifications of a cheap 0&ndash;15 V 0&ndash;2 A adjustable DC linear power supply with passive cooling"
+description: "Modifications of a cheap 0&ndash;15&nbsp;V 0&ndash;2&nbsp;A adjustable DC linear power supply with passive cooling"
 featured_image: "NG1620-BL-front-panel.jpg"
 ---
 
 This is the first lab bench power supply I have ever owned.
-It is a cheap 0&ndash;15 V 0&ndash;2 A adjustable DC linear power supply with
-passive cooling.
+It is a cheap 0&ndash;15&nbsp;V 0&ndash;2&nbsp;A adjustable DC linear power
+supply with passive cooling.
 
 There appear to be many different versions of this product, so make sure to
 find the matching schematic for your unit.
