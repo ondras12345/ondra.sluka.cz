@@ -26,24 +26,24 @@ theme = 'hugo-coder'
   author = "authors"
 
 [[params.social]]
-name = "Github"
-icon = "fa fa-github fa-2x"
-weight = 1
-url = "https://github.com/ondras12345/"
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/ondras12345/"
 
 # TODO gitlab ??
 
 [[params.social]]
-name = "Home Assistant community"
-icon = "custom-icon custom-icon-homeassistant"
-weight = 2
-url = "https://community.home-assistant.io/u/ondras12345/summary"
+  name = "Home Assistant community"
+  icon = "custom-icon custom-icon-homeassistant"
+  weight = 2
+  url = "https://community.home-assistant.io/u/ondras12345/summary"
 
 [[params.social]]
-name = "RSS"
-icon = "fa fa-rss fa-2x"
-weight = 3
-url = "/index.xml"
+  name = "RSS"
+  icon = "fa fa-rss fa-2x"
+  weight = 3
+  url = "/index.xml"
 
 [[menu.main]]
   name = "Blog"
