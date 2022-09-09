@@ -4,5 +4,7 @@ date: {{ .Date }}
 draft: true
 description: ""
 featured_image: ""
+tags: []
+categories: []
 ---
 

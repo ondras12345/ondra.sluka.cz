@@ -4,6 +4,8 @@ date: 2020-12-14T12:07:00+02:00
 draft: false
 description: "Modifications of a cheap 0&ndash;15&nbsp;V 0&ndash;2&nbsp;A adjustable DC linear power supply with passive cooling"
 featured_image: "NG1620-BL-front-panel.jpg"
+tags: ["power supply"]
+categories: ["electronics"]
 ---
 
 This is the first lab bench power supply I have ever owned.
