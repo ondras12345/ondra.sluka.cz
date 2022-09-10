@@ -12,7 +12,7 @@
     {{- range .Paginator.Pages.ByTitle -}}
       <!-- TODO CSS image next to text -->
       <hr>
-      <div style="height: 200px">
+      <div style="min-height: 200px">
         {{ if .Param "featured_image" }}
         {{ $image := .Resources.GetMatch (.Param "featured_image") }}
         {{ $image = $image.Fit "200x200 q75" }}
