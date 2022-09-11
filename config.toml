@@ -11,7 +11,10 @@ theme = 'hugo-coder'
 
 [params]
   author = "Ondřej Sluka"
-  keywords = "blog,electronics"
+  #keywords = "blog,electronics"
+  #description = "Ondřej Sluka's personal website"
+  # TODO default post description is .Summary, bad for SEO
+  info = ["Electronics enthusiast", "Hobby programmer", "Free software advocate", "Home automation aficionado"]
   avatarURL = "images/avatar.jpg"
   customCSS = ["css/extra-style.css"]
   dateFormat = "2006-01-02"
