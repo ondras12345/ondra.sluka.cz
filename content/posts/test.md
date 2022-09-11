@@ -2,7 +2,9 @@
 title: "Test"
 date: 2022-08-09T01:04:07+02:00
 draft: true
-tags: ["Testing", "IT"]
+tags: []
+categories: ["software"]
+math: true
 ---
 # This is a test
 

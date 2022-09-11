@@ -15,7 +15,6 @@ theme = 'hugo-coder'
   avatarURL = "images/avatar.jpg"
   customCSS = ["css/extra-style.css"]
   dateFormat = "2006-01-02"
-  math = true
   colorScheme = "auto"
   hideColorSchemeToggle = false
 
