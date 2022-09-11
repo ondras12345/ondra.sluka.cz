@@ -16,7 +16,7 @@ series = ["favicon"]
 the browser tab next to the title of the webpage.
 It is a file containing one or more images.
 For example Wordpress requires you to supply it with a single image greater
-than 512 × 512 px.
+than 512&times;512&nbsp;px.
 
 I didn't really have an idea of what the icon should look like, so I decided
 to limit my choices by displaying it on an oscilloscope in XY mode.
