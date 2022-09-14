@@ -63,7 +63,7 @@ theme = 'hugo-coder'
   name = "Software"
   weight = 4
   url = "software/"
-[[menu.main]]
-  name = "About"
-  weight = 5
-  url = "about/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 5
+#  url = "about/"
