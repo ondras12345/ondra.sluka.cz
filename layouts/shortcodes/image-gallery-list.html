@@ -1,10 +1,12 @@
 {{/* see CSS stylesheet assets/css/extra-style.css */}}
 <ul class="image-gallery">
-{{ range .Params }}
+{{ $alt := index (first 1 .Params) 0 }}
+{{ $images := after 1 .Params }}
+{{ range $images }}
   {{- $image := $.Page.Resources.GetMatch (.) }}
     <li>
       <a href="{{ . }}">
-        <img src="{{ ($image.Fit "300x300 q50").Permalink }}" alt="{{ $image.Name }}">
+        <img src="{{ ($image.Fit "300x300 q50").Permalink }}" alt="{{ $alt }}">
       </a>
     </li>
 {{ end }}
