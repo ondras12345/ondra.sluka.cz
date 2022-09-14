@@ -69,6 +69,10 @@ if __name__ == '__main__':
     main()
 ```
 
+{{< todo >}}
+TODO new script? + imagemagick png
+{{< todo >}}
+
 The main disadvantage is that this operation takes about 30 seconds to
 complete.
 However, I don't think you could get much faster than this with a floppy.
