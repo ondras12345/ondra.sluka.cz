@@ -10,13 +10,12 @@
     </h1>
     {{ .Content }}
     {{- range .Paginator.Pages.ByTitle -}}
-      <!-- TODO CSS image next to text -->
       <hr>
-      <div style="min-height: 200px">
+      <article class="clearfix">
         {{ if .Param "featured_image" }}
         {{ $image := .Resources.GetMatch (.Param "featured_image") }}
         {{ $image = $image.Fit "200x200 q75" }}
-        <img src="{{ $image.RelPermalink }}" alt="" style="float: left; margin-right: 15px">
+        <div class="project-img"><img src="{{ $image.RelPermalink }}" alt=""></div>
         {{ end }}
         <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
         <p>
@@ -28,7 +27,7 @@
             {{ .Summary }}
         {{ end }}
         </p>
-      </div>
+      </article>
     {{- end -}}
 
     {{ partial "pagination.html" . }}

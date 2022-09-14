@@ -44,3 +44,17 @@ ul.image-gallery li a img {
   object-fit: cover;
   border-radius: 8px;
 }
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.project-img {
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+    text-align: center;
+}
