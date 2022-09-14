@@ -1,3 +1,9 @@
+{{/* This makes a figure faster to load by downscaling the image and adds a link to the original. Only converts jpeg images. */}}
+{{/*
+https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/figure.html
+https://gohugo.io/content-management/image-processing/
+https://web.archive.org/web/20180525034133/https://gohugo.io/about/new-in-032/
+*/}}
 {{ $src := .Get "src" }}
 {{ if and
   (or (in (.Get "src") ".jpg") (in (.Get "src") ".jpeg"))
