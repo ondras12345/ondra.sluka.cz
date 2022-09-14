@@ -46,11 +46,13 @@ No proprietary garbage will be included in this list.
 ### Media
 - [Inkscape](https://inkscape.org/) vector graphics editor
 - [GIMP](https://www.gimp.org/) image editor
+- [Zathura](https://pwmt.org/projects/zathura/) document viewer with Vim-like key bindings
 - [digiKam](https://www.digikam.org/) image organizer
 - [Shotcut](https://shotcut.org/) video editor
 - [Audacity](https://www.audacityteam.org/) audio editor
 - [VLC](https://www.videolan.org/vlc/) media player
-- [Zathura](https://pwmt.org/projects/zathura/) document viewer with Vim-like key bindings
+- [Spot](https://github.com/xou816/spot) native Spotify client for the GNOME desktop
+
 
 ### Electronics engineering
 - [KiCAD](https://kicad-pcb.org/) electronics design automation suite
