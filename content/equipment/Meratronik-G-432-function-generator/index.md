@@ -42,5 +42,5 @@ with nice curves &mdash; none of that right angle rubbish.
 
 {{< todo >}}
 ## Modifications
-line cord mod
+TODO line cord mod
 {{< /todo >}}

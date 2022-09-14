@@ -45,5 +45,5 @@ Grbl wiki has a page about
 so I will not go into detail about that here.
 
 {{< todo >}}
-Optoisolation board
+TODO Optoisolation board
 {{< /todo >}}
