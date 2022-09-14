@@ -36,14 +36,12 @@ No proprietary garbage will be included in this list.
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) terminal emulator and serial console
 - [GNU Octave](https://www.gnu.org/software/octave/index) scientific programming language
 - [Doxygen](https://doxygen.nl/) documentation generator
-{{< todo >}}
-- TODO Jupyter notebook
-{{< /todo >}}
 
 
-### Document creation
+### Document creation and data processing
 - [TeX Live](https://www.tug.org/texlive/) TeX distribution
 - [gnuplot](http://www.gnuplot.info/) graphing utility
+- [Jupyter Notebook](https://jupyter.org/)
 
 ### Media
 - [Inkscape](https://inkscape.org/) vector graphics editor
@@ -63,9 +61,7 @@ No proprietary garbage will be included in this list.
 - [Grbl](https://github.com/gnea/grbl) CNC machine firmware
 - [Candle](https://github.com/Denvi/Candle) Grbl controler
 - [FreeCAD](https://www.freecadweb.org/) 3D CAD modeler
-{{< todo >}}
-- TODO maybe link to CNC page -->
-{{< /todo >}}
+- ([More information about my CNC](http://localhost:1313/projects/1610-cnc/))
 
 ### Home automation
 - [Home Assistant](https://www.home-assistant.io/)
