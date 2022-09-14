@@ -1,1 +1,7 @@
-{{ if .Inner }}{{ end }}
+{{ if .Site.BuildDrafts }}
+<div class="todo-panel">
+  <pre>
+  {{- .Inner -}}
+  </pre>
+</div>
+{{ end }}
