@@ -22,6 +22,9 @@ This is an (incomplete) list of the great free software I use.
 
 No proprietary garbage will be included in this list.
 
+If you are interested in seeing what configuration options I use, check out
+[my dotfiles repository](https://github.com/ondras12345/dotfiles).
+
 ## List
 ### Operating systems
 - [Ubuntu](https://ubuntu.com/) GNU/Linux distribution
