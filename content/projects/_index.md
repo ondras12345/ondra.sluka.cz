@@ -10,3 +10,7 @@ information.
 
 For more random software projects, check out
 [my Github repositories](https://github.com/ondras12345?tab=repositories).
+
+{{< todo >}}
+- TODO wind battery-less MPPT
+{{< /todo >}}
