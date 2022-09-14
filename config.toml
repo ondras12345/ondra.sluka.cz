@@ -2,7 +2,13 @@ baseURL = 'https://ondra.sluka.cz/'
 languageCode = 'en'
 defaultContentLanguage = "en"
 title = 'Ondřej Sluka'  # TODO
+# https://github.com/luizdepra/hugo-coder/blob/main/exampleSite/config.toml
+# another interesting theme: https://github.com/queensferryme/hugo-theme-texify ??
 theme = 'hugo-coder'
+# TODO disqus comments? / utterances look better
+# TODO license https://discourse.gohugo.io/t/a-quick-creative-commons-licence-with-options/26857
+# TODO show tags and categories in projects and equipment
+# TODO katex copy code
 
 [markup]
   [markup.goldmark]
