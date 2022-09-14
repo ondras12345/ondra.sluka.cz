@@ -21,6 +21,12 @@ theme = 'hugo-coder'
   colorScheme = "auto"
   hideColorSchemeToggle = false
 
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+  [privacy.googleAnalytics]
+    disable = true
+
 [taxonomies]
   category = "categories"
   series = "series"
