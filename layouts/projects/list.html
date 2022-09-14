@@ -22,7 +22,8 @@
         {{/* description must be set but empty to get .Summary, otherwise site-global description from config.toml is used. */}}
         {{ with .Param "description" }}
             {{/* safeHTML is needed to get things like &ndash; to work */}}
-            {{ . | safeHTML }}
+            {{/* markdownify is even better */}}
+            {{ . | markdownify }}
         {{ else }}
             {{ .Summary }}
         {{ end }}
