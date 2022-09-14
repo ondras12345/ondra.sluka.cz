@@ -26,20 +26,8 @@ The power cord on my unit is not original, I have replaced it with a 3-prong
 one in order to ground the instrument. There was quite a high voltage between
 the chassis of the unit and mains earth without the PE connection.
 
-{{< figure-resize src="Meratronik-G-432-teardown-1.jpg" width="100%"
-    alt="Internals of a disassebled Meratronik G 432 function generator"
->}}
-
-{{< figure-resize src="Meratronik-G-432-teardown-2.jpg" width="100%"
-    alt="Internals of a disassebled Meratronik G 432 function generator"
->}}
-
-{{< figure-resize src="Meratronik-G-432-teardown-3.jpg" width="100%"
-    alt="Internals of a disassebled Meratronik G 432 function generator"
->}}
-
-{{< figure-resize src="Meratronik-G-432-teardown-4.jpg" width="100%"
-    alt="Internals of a disassebled Meratronik G 432 function generator"
+{{< image-gallery-list "Internals of a disassebled Meratronik G 432 function generator"
+    "Meratronik-G-432-teardown-1.jpg" "Meratronik-G-432-teardown-2.jpg" "Meratronik-G-432-teardown-3.jpg" "Meratronik-G-432-teardown-4.jpg"
 >}}
 
 As you can see, the unit is fully analog. Because the maximum frequency it can
