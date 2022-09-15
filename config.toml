@@ -4,14 +4,13 @@ baseURL = 'https://ondra.sluka.cz/'
 
 languageCode = 'en'
 defaultContentLanguage = "en"
-title = 'Ondřej Sluka'  # TODO
+title = 'Ondřej Sluka'
 # https://github.com/luizdepra/hugo-coder/blob/main/exampleSite/config.toml
 # another interesting theme: https://github.com/queensferryme/hugo-theme-texify ??
 theme = 'hugo-coder'
-# TODO disqus comments? / utterances look better
 # TODO license https://discourse.gohugo.io/t/a-quick-creative-commons-licence-with-options/26857
 # TODO show tags and categories in projects and equipment
-# TODO katex copy code
+# TODO katex copy code https://github.com/KaTeX/KaTeX/blob/main/contrib/copy-tex/README.md (tested, works)
 
 [markup]
   [markup.goldmark]
@@ -29,6 +28,12 @@ theme = 'hugo-coder'
   dateFormat = "2006-01-02"
   colorScheme = "auto"
   hideColorSchemeToggle = false
+
+  [params.utterances]
+    repo = "ondras12345/ondra.sluka.cz"
+    issueTerm="pathname"
+    label="comments"
+    theme="preferred-color-scheme"
 
 [privacy]
   [privacy.youtube]
