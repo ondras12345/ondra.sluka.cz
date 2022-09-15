@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
 {{< todo >}}
 TODO new script? + imagemagick png
-{{< todo >}}
+{{< /todo >}}
 
 The main disadvantage is that this operation takes about 30 seconds to
 complete.
