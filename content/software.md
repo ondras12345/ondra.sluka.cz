@@ -40,7 +40,6 @@ If you are interested in seeing what configuration options I use, check out
 - [GNU Octave](https://www.gnu.org/software/octave/index) scientific programming language
 - [Doxygen](https://doxygen.nl/) documentation generator
 
-
 ### Document creation and data processing
 - [TeX Live](https://www.tug.org/texlive/) TeX distribution
 - [gnuplot](http://www.gnuplot.info/) graphing utility
@@ -55,7 +54,6 @@ If you are interested in seeing what configuration options I use, check out
 - [Audacity](https://www.audacityteam.org/) audio editor
 - [VLC](https://www.videolan.org/vlc/) media player
 - [Spot](https://github.com/xou816/spot) native Spotify client for the GNOME desktop
-
 
 ### Electronics engineering
 - [KiCAD](https://kicad-pcb.org/) electronics design automation suite
@@ -79,4 +77,5 @@ If you are interested in seeing what configuration options I use, check out
 - [Hugo](https://gohugo.io/) static webpage generator
 - [Vimium](https://github.com/philc/vimium) web browser plugin for Vim-like key bindings
 - [Termux](https://termux.com/) Android terminal emulator with standard Linux packages
+- [pass](https://www.passwordstore.org/), the standard unix password manager
 - ...
