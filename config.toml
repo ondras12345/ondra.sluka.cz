@@ -1,4 +1,7 @@
 baseURL = 'https://ondra.sluka.cz/'
+# For testing in subdirectory:
+#canonifyURLs = true
+
 languageCode = 'en'
 defaultContentLanguage = "en"
 title = 'Ondřej Sluka'  # TODO
