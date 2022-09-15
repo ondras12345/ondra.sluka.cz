@@ -9,6 +9,7 @@ tags = ["FOSS", "GNU/Linux"]
 categories = ["software"]
 externalLink = ""
 series = []
+type = "software"
 +++
 This is an (incomplete) list of the great free software I use.
 
