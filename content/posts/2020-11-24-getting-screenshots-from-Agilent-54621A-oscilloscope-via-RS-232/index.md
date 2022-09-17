@@ -8,7 +8,7 @@ authors = []
 tags = ["oscilloscope"]
 categories = ["electronics"]
 externalLink = ""
-series = []
+series = ["Agilent 54621A"]
 +++
 {{< figure src="scope-screenshot.png" alt="An example screenshot retrieved from the Agilent 54621A DSO over RS-232" >}}
 
