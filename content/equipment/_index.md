@@ -11,6 +11,5 @@ Teardown photos, useful links, tips and tricks and custom modifications.
 {{< todo >}}
 TODO KORAD + link to github
 TODO B35T + link to github
-TODO Hitachi V-1565
 TODO internal documentation from ~/Documents/LAB ?
 {{< /todo >}}

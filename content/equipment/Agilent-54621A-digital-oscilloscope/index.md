@@ -13,8 +13,9 @@ series: ["Agilent 54621A"]
 >}}
 
 This is the DSO I use for almost everything I do. It's only 60&nbsp;MHz analog
-bandwidth, but I rarely work with higher frequency signals. When I do, I
-use my Hitachi V-1565 analog oscilloscope.
+bandwidth, but I rarely work with higher frequency signals.
+When I do, I use my
+[Hitachi V-1565 analog oscilloscope](/equipment/hitachi-v-1565-analog-oscilloscope/).
 
 ## Getting screenshots over RS-232
 See

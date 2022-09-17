@@ -19,7 +19,7 @@ The KKmoon brand seems to be just an OEM by Feeltech.
 >}}
 
 {{< figure-resize src="FY6900-Lissajous.jpg" width="100%" resize="800x800 q75"
-    caption="Lissajous patterns on my Hitachi V-1565 analog oscilloscope"
+    caption="Lissajous patterns on my [Hitachi V-1565 analog oscilloscope](/equipment/hitachi-v-1565-analog-oscilloscope/)"
     alt="3:1 sine wave Lissajous pattern on an analog oscilloscope screen"
 >}}
 
