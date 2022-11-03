@@ -25,8 +25,10 @@ manual and a single thread on the EEVblog forums with no responses.
 After some time I found out that it looks suspiciously like the
 **Aim-TTi 1705**. There's much more information available about that.
 
-I'm quite happy with it. The only thing I'm not fond of is it's slow startup
+I'm quite happy with it. One thing I'm not fond of is it's slow startup
 time. It takes about 6.5&nbsp;s to fully initialize after being powered on.
+It also has a quite slow autorange function, especially noticeable when
+measuring resistance.
 
 {{< image-gallery-list "Kenwood DLE 1041 true RMS programmable multimeter"
     "Kenwood-DLE-1041-back.jpg" "Kenwood-DLE-1041-bot.jpg"
