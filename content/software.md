@@ -65,7 +65,7 @@ If you are interested in seeing what configuration options I use, check out
 - [Grbl](https://github.com/gnea/grbl) CNC machine firmware
 - [Candle](https://github.com/Denvi/Candle) Grbl controler
 - [FreeCAD](https://www.freecadweb.org/) 3D CAD modeler
-- ([More information about my CNC](http://localhost:1313/projects/1610-cnc/))
+- ([More information about my CNC](/projects/1610-cnc/))
 
 ### Home automation
 - [Home Assistant](https://www.home-assistant.io/)
