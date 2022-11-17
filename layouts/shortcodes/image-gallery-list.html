@@ -6,7 +6,7 @@
   {{- $image := $.Page.Resources.GetMatch (.) }}
     <li>
       <a href="{{ . }}">
-        <img src="{{ ($image.Fit "300x300 q50").Permalink }}" alt="{{ $alt }}">
+        <img src="{{ ($image.Fit "300x300 q50").RelPermalink }}" alt="{{ $alt }}">
       </a>
     </li>
 {{ end }}
