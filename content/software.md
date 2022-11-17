@@ -46,6 +46,17 @@ If you are interested in seeing what configuration options I use, check out
 - [gnuplot](http://www.gnuplot.info/) graphing utility
 - [Jupyter Notebook](https://jupyter.org/)
 
+### Note taking
+- [I use todo.txt and Markdown files for my
+  notes](/posts/2022-11-14-note-taking-system-todotxt-markdown/).
+- Vim on PC
+- [Markor](https://github.com/gsantner/markor) text editor for Android with
+  special buttons for convenient editing of Markdown and todo.txt (among other
+  formats)
+- [Syncthing](https://syncthing.net/) continuous file synchronization program
+- [todo.txt-vim](https://gitlab.com/dbeniamine/todo.txt-vim)
+  (fork by dbeniamine)
+
 ### Media
 - [Inkscape](https://inkscape.org/) vector graphics editor
 - [GIMP](https://www.gimp.org/) image editor
