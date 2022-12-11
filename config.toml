@@ -10,6 +10,8 @@ title = 'Ondřej Sluka'
 theme = 'hugo-coder'
 # TODO license https://discourse.gohugo.io/t/a-quick-creative-commons-licence-with-options/26857
 
+ignoreFiles = [ '/ignore\.' ]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

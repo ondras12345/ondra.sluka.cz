@@ -1,0 +1,7 @@
+# TeX
+ignore.parts.log
+ignore.parts.pdf
+ignore.parts.aux
+
+# images
+*.orig
