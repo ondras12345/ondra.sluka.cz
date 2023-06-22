@@ -81,6 +81,8 @@ If you are interested in seeing what configuration options I use, check out
 ### Home automation
 - [Home Assistant](https://www.home-assistant.io/)
 - [MQTT IO](https://github.com/flyte/mqtt-io) for exposing RPi GPIO via MQTT
+- [Zigbee2MQTT](https://www.zigbee2mqtt.io/)
+- [Traccar](https://www.traccar.org/)
 {{< todo >}}
 - TODO separate page for HA
 {{< /todo >}}
