@@ -12,6 +12,8 @@ theme = 'hugo-coder'
 
 ignoreFiles = [ '/ignore\.' ]
 
+paginate = 25
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
