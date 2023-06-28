@@ -1,15 +1,15 @@
-+++ 
-draft = false
-date = 2020-11-27T12:01:00+02:00
-title = "Microsoft Teams Keeps Listening After You Hang Up!"
-description = ""
-slug = ""
-authors = []
-tags = ["GNU/Linux"]
-categories = ["software"]
-externalLink = ""
-series = []
-+++
+---
+draft: false
+date: 2020-11-27T12:01:00+02:00
+title: "Microsoft Teams Keeps Listening After You Hang Up!"
+description: >-
+featured_image: ""
+tags:
+  - GNU/Linux
+categories:
+  - software
+series:
+---
 I have recently noticed that Microsoft Teams in GNU/Linux kept listening to my
 microphone after I hung up a call. The only way to stop this seems to be
 exiting Teams and starting it again.

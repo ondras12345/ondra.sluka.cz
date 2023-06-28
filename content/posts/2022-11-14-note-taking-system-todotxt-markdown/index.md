@@ -1,15 +1,18 @@
-+++ 
-draft = false
-date = 2022-11-14T16:40:01+01:00
-title = "My note taking system with todo.txt and Markdown"
-description = ""
-slug = ""
-authors = []
-tags = ["FOSS", "GNU/Linux"]
-categories = ["software"]
-externalLink = ""
-series = []
-+++
+---
+draft: false
+date: 2022-11-14T16:40:01+01:00
+title: "My note taking system with todo.txt and Markdown"
+description: >-
+  I have long searched for a good free software replacement for Google Keep,
+  and todo.txt might just be the perfect solution.
+featured_image: "featured.png"
+tags:
+  - FOSS
+  - GNU/Linux
+categories:
+  - software
+series:
+---
 {{< figure src="featured.png" width="100%" >}}
 
 I have recently changed the way I sync notes between by devices.

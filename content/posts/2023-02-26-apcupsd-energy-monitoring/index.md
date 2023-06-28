@@ -1,15 +1,17 @@
-+++ 
-draft = false
-date = 2023-02-26T11:32:13+01:00
-title = "Using Data from a UPS to Calculate PC Energy Consumption"
-description = ""
-slug = ""
-authors = []
-tags = ["Home Assistant"]
-categories = ["home automation"]
-externalLink = ""
-series = []
-+++
+---
+draft: false
+date: 2023-02-26T11:32:13+01:00
+title: "Using Data from a UPS to Calculate PC Energy Consumption"
+description: >-
+  A home automation experiment -- trying to calculate PC power consumption
+  using `apcupsd`.
+featured_image: "PC-power-consumption.png"
+tags:
+  - Home Assistant
+categories:
+  - home automation
+series:
+---
 {{< figure src="PC-power-consumption.png" width="100%"
     caption="Desktop computer power consumption graph."
 >}}

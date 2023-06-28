@@ -1,15 +1,18 @@
-+++ 
-draft = false
-date = 2020-11-24T22:27:50+02:00
-title = "Getting Screenshots from an Agilent 54621A Oscilloscope Via RS-232"
-description = ""
-slug = ""
-authors = []
-tags = ["oscilloscope"]
-categories = ["electronics"]
-externalLink = ""
-series = ["Agilent 54621A"]
-+++
+---
+draft: false
+date: 2020-11-24T22:27:50+02:00
+title: "Getting Screenshots from an Agilent 54621A Oscilloscope Via RS-232"
+description: >-
+  A simple Python script that downloads PNG screenshots from an Agilent 54621A
+  oscilloscope via RS-232. Useful when your floppy drive breaks.
+featured_image: "scope-screenshot.png"
+tags:
+  - oscilloscope
+categories:
+  - electronics
+series:
+  - Agilent 54621A
+---
 {{< figure src="scope-screenshot.png" alt="An example screenshot retrieved from the Agilent 54621A DSO over RS-232" >}}
 
 My Agilent 54621A DSO has a broken floppy disk drive.

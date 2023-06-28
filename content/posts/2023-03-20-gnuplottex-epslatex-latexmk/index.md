@@ -1,16 +1,19 @@
-+++ 
-draft = false
-date = 2023-03-20T14:57:35+01:00
-title = "latexmk configuration for compiling gnuplottex figures using epslatex terminal"
-description = ""
-slug = ""
-authors = []
-tags = ["latexmk", "gnuplot"]
-categories = ["LaTeX"]
-externalLink = ""
-series = []
-math = true
-+++
+---
+draft: false
+date: 2023-03-20T14:57:35+01:00
+title: "latexmk configuration for compiling gnuplottex figures using epslatex terminal"
+description: >-
+  `gnuplottex` seems like a useful package, but it needed some tweaking in my
+  setup.
+featured_image: ""
+tags:
+  - latexmk
+  - gnuplot
+categories:
+  - LaTeX
+series:
+math: true
+---
 When I used `gnuplot` with $\LaTeX$ in the past, I was always using a custom
 `Makefile` to compile the `gnuplot` figures. I recently came across the
 [`gnuplottex` package](https://ctan.org/pkg/gnuplottex) and wanted to give it

@@ -1,15 +1,15 @@
-+++ 
-draft = false
-date = 2023-06-13T14:13:21+02:00
-title = "Mikrotik script to send e-mail notifications when RouterOS update is available"
-description = ""
-slug = ""
-authors = []
-tags = ["Mikrotik"]
-categories = ["software"]
-externalLink = ""
-series = []
-+++
+---
+draft: false
+date: 2023-06-13T14:13:21+02:00
+title: "Mikrotik script that sends e-mail notifications when RouterOS update is available"
+description: >-
+featured_image: ""
+tags:
+  - Mikrotik
+categories:
+  - software
+series:
+---
 
 I use this simple script on all the Mikrotik routers I manage to notify me
 when a new update is available.

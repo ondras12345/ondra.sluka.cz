@@ -1,15 +1,18 @@
-+++ 
-draft = false
-date = 2021-01-15T16:12:00+02:00
-title = "Installing LOGO! Soft Comfort on Windows XP"
-description = ""
-slug = ""
-authors = []
-tags = ["PLC", "Windows XP"]
-categories = ["software"]
-externalLink = ""
-series = []
-+++
+---
+draft: false
+date: 2021-01-15T16:12:00+02:00
+title: "Installing LOGO! Soft Comfort on Windows XP"
+description: >-
+  Installing LOGO! Soft Comfort version 8.0.0 (software used for programming
+  Siemens LOGO! PLCs) on Windows XP.
+featured_image: "LOGO-Soft-Comfort.png"
+tags:
+  - PLC
+  - Windows XP
+categories:
+  - software
+series:
+---
 {{< figure src="LOGO-Soft-Comfort.png" caption="LOGO! Soft Comfort running on Windows XP" >}}
 
 As you might already know, I run GNU/Linux on my main production machine. For

@@ -2,10 +2,10 @@
 draft: true
 date: {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
-description: ""
+description: >-
 featured_image: ""
 tags:
 categories:
-externalLink: ""
+series:
 ---
 

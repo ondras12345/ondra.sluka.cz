@@ -1,15 +1,16 @@
-+++ 
-draft = false
-date = 2022-12-11T13:38:19+01:00
-title = "1602 character LCD backlight color modification"
-description = ""
-slug = ""
-authors = []
-tags = []
-categories = ["electronics"]
-externalLink = ""
-series = []
-+++
+---
+draft: false
+date: 2022-12-11T13:38:19+01:00
+title: "1602 character LCD backlight color modification"
+description: >-
+  Most 1602 character LCDs come with blue (actually white, as we'll see)
+  backlight. Well, mine has red backlight now.
+featured_image: "featured.jpg"
+tags:
+categories:
+  - electronics
+series:
+---
 {{< figure-resize resize="800x800" src="featured.jpg" width="100%"
     caption="1602 LCD display modified to have red backlight. The light reflection on the left is happening because the protective foil is still on."
 >}}

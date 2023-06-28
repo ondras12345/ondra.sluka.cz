@@ -1,15 +1,16 @@
-+++ 
-draft = false
-date = 2021-01-18T23:57:00+02:00
-title = "Drawing the Favicon on a C64"
-description = ""
-slug = ""
-authors = []
-tags = []
-categories = ["software"]
-externalLink = ""
-series = ["favicon"]
-+++
+---
+draft: false
+date: 2021-01-18T23:57:00+02:00
+title: "Drawing the Favicon on a C64"
+description: >-
+  A BASIC program that displays my favicon on a Commodore 64.
+featured_image: "favicon-C64.png"
+tags:
+categories:
+  - software
+series:
+  - favicon
+---
 {{< figure src="favicon-C64.png" width="100%" >}}
 
 This is a followup to my

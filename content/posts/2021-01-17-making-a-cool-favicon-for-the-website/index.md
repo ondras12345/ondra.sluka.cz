@@ -1,21 +1,25 @@
-+++ 
-draft = false
-date = 2021-01-17T00:30:57+02:00
-title = "Making a Cool Favicon for the Website"
-description = ""
-slug = ""
-authors = []
-tags = ["audio", "oscilloscope"]
-categories = ["electronics"]
-externalLink = ""
-series = ["favicon"]
-+++
+---
+draft: false
+date: 2021-01-17T00:30:57+02:00
+title: "Making a Cool Favicon for the Website"
+description: >-
+  This posts documents the process of creating a cool-looking favicon for my
+  personal website. It involves Python scripts, WAV files and an oscilloscope.
+featured_image: "featured.jpg"
+tags:
+  - audio
+  - oscilloscope
+categories:
+  - electronics
+series:
+  - favicon
+---
 {{< figure-resize resize="1024x1024" src="featured.jpg" width="100%" >}}
 
 [`favicon.ico`](https://en.wikipedia.org/wiki/Favicon) is the icon you see in
 the browser tab next to the title of the webpage.
 It is a file containing one or more images.
-For example Wordpress requires you to supply it with a single image greater
+For example, Wordpress requires you to supply it with a single image greater
 than 512&times;512&nbsp;px.
 
 I didn't really have an idea of what the icon should look like, so I decided
@@ -125,7 +129,7 @@ available.
 
 {{< audio src="favicon-5s.wav" >}}
 
-I also created another small program, `wavxy.py`, that takes a short WAV file
+I also created another program, `wavxy.py`, that takes a short WAV file
 and plots its contents in XY mode using
 [`matplotlib`](https://matplotlib.org/).
 

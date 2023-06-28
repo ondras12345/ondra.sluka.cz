@@ -1,16 +1,17 @@
-+++ 
-draft = false
-date = 2022-09-15T12:50:18+02:00
-title = "Migrating this website from WordPress to Hugo"
-description = ""
-slug = ""
-authors = []
-tags = ["www"]
-categories = ["software"]
-externalLink = ""
-series = []
-math = true
-+++
+---
+draft: false
+date: 2022-09-15T12:50:18+02:00
+title: "Migrating this website from WordPress to Hugo"
+description: >-
+  A list of reasons why I think Hugo is better than WordPress for my use-case.
+featured_image: ""
+tags:
+  - WWW
+categories:
+  - software
+series:
+math: true
+---
 I have recently migrated my WordPress-based website
 https://ondra.sluka.cz/wp/ to [Hugo](https://gohugo.io/), a framework for
 building static websites.

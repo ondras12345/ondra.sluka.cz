@@ -9,7 +9,7 @@
       </a>
     </h1>
     {{ .Content }}
-    {{- range .Paginator.Pages.ByTitle -}}
+    {{- range .Paginator.Pages -}}
       <hr>
       <article class="clearfix">
         {{ if .Param "featured_image" }}
@@ -17,6 +17,7 @@
         {{ $image = $image.Fit "200x200 q75" }}
         <div class="project-img"><img src="{{ $image.RelPermalink }}" alt=""></div>
         {{ end }}
+        <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
         <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
         <p>
         {{/* description must be set, otherwise site-global description from config.toml is used. */}}

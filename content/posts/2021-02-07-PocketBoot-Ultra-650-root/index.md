@@ -1,16 +1,18 @@
-+++ 
-draft = false
-date = 2021-02-07T22:16:00+02:00
-title = "Rooting my PocketBook Ultra 650"
-description = ""
-slug = ""
-authors = []
-tags = ["GNU/Linux"]
-categories = ["electronics", "software"]
-externalLink = ""
-series = []
-+++
-
+---
+draft: false
+date: 2021-02-07T22:16:00+02:00
+title: "Rooting my PocketBook Ultra 650"
+description: >-
+  I discovered that my PocketBook Ultra 650 e-book reader has an unprotected
+  root TTY on an internal UART port.
+featured_image: "pocketbook-screenshot.png"
+tags:
+  - GNU/Linux
+categories:
+  - electronics
+  - software
+series:
+---
 {{< figure src="pocketbook-screenshot.png" >}}
 
 I wanted to root my PocketBook Ultra 650 e-book reader (firmware version
