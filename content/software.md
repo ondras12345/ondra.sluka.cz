@@ -1,16 +1,16 @@
-+++ 
-draft = false
-date = 2022-08-10T00:29:22+02:00
-title = "List of Free Software I Use"
-description = ""
-slug = ""
-authors = []
-tags = ["FOSS", "GNU/Linux"]
-categories = ["software"]
-externalLink = ""
-series = []
-type = "software"
-+++
+---
+draft: false
+date: 2022-08-10T00:29:22+02:00
+title: "List of Free Software I Use"
+description: ""
+tags:
+  - FOSS
+  - GNU/Linux
+categories:
+  - software
+series:
+type: software
+---
 This is an (incomplete) list of the great free software I use.
 
 > “Free software” means software that respects users' freedom and community.
@@ -56,6 +56,8 @@ If you are interested in seeing what configuration options I use, check out
 - [Syncthing](https://syncthing.net/) continuous file synchronization program
 - [todo.txt-vim](https://gitlab.com/dbeniamine/todo.txt-vim)
   (fork by dbeniamine)
+- [todo.txt-cli](https://github.com/todotxt/todo.txt-cli)
+  and [some add-ons](https://github.com/ondras12345/dotfiles/tree/linux/.config/todo/actions.d)
 
 ### Media
 - [Inkscape](https://inkscape.org/) vector graphics editor
@@ -69,12 +71,16 @@ If you are interested in seeing what configuration options I use, check out
 
 ### Electronics engineering
 - [KiCAD](https://kicad-pcb.org/) electronics design automation suite
-- [FlatCAM](http://flatcam.org/) PCB CAM
 - [CircuitJS1](https://www.falstad.com/circuit/) online circuit simulator
 
 ### CNC
 - [Grbl](https://github.com/gnea/grbl) CNC machine firmware
-- [Candle](https://github.com/Denvi/Candle) Grbl controler
+- [bCNC](https://github.com/vlachoudis/bCNC) Grbl controller
+- [Candle](https://github.com/Denvi/Candle) Grbl controler - no longer
+  actively used
+- [pcb2gcode](https://github.com/pcb2gcode/pcb2gcode) command-line tool for
+  isolation, routing and drilling of PCBs
+- [FlatCAM](http://flatcam.org/) PCB CAM - no longer actively used
 - [FreeCAD](https://www.freecadweb.org/) 3D CAD modeler
 - ([More information about my CNC](/projects/1610-cnc/))
 
