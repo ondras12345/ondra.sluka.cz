@@ -1,3 +1,6 @@
+ftp.crt
+deploy
+
 # Generated files by hugo
 /public/
 /resources/_gen/
