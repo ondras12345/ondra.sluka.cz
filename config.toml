@@ -35,7 +35,7 @@ paginate = 25
     repo = "ondras12345/ondra.sluka.cz"
     issueTerm="pathname"
     label="comments"
-    theme="preferred-color-scheme"
+    theme="auto"
 
 [privacy]
   [privacy.youtube]
