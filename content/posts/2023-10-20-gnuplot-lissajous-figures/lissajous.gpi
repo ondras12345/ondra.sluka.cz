@@ -1,0 +1,87 @@
+# Lissajous figures
+# Author: Ondřej Sluka
+# License: MIT
+
+set output "lissajous.tex"
+set terminal epslatex size 12.5cm,19cm
+set encoding utf8
+#set grid lt -1 lc rgb 'gray70' lw 1.5, lt 0 lc rgb 'gray60' lw 2.0
+
+set style line 1 lw 3 lc rgb "black"
+
+set samples 500
+
+# same scale for x and y axis
+set size ratio -1
+unset key
+unset xtics
+unset ytics
+unset border
+
+set xrange [-1:1]
+set yrange [-1:1]
+set xzeroaxis
+set yzeroaxis
+
+set parametric
+
+Nrows = 7
+Ncols = 5
+
+array A[Nrows]
+A[1] = 1
+A[2] = 1
+A[3] = 1
+A[4] = 2
+A[5] = 1
+A[6] = 1
+A[7] = 3
+
+array B[Nrows]
+B[1] = 1
+B[2] = 2
+B[3] = 3
+B[4] = 3
+B[5] = 4
+B[6] = 5
+B[7] = 10
+
+array PHI_DEG[Ncols]
+PHI_DEG[1] = 0.0
+PHI_DEG[2] = 45.0
+PHI_DEG[3] = 90.0
+PHI_DEG[4] = 135.0
+PHI_DEG[5] = 180.0
+
+set multiplot layout Nrows,Ncols
+set lmargin 0.5
+set rmargin 0.5
+set tmargin 0.5
+set bmargin 0.5
+
+
+do for [i=1:Nrows] {
+    do for [j=1:Ncols] {
+        a = A[i]
+        b = B[i]
+        phi_deg = PHI_DEG[j]
+        phi = phi_deg/180*pi
+
+        # We need to set the labels before the last plot to avoid duplicates
+        if (i == Nrows && j == Ncols) {
+            do for [k=1:Ncols] {
+                phi_deg = PHI_DEG[k]
+                set label front sprintf('$\varphi = \SI{%g}{\degree}$', phi_deg) center at screen 0.10+0.80/(Ncols-1)*(k-1),1.05
+            }
+
+            set label front '$a:b$' center at screen -0.05,0.98
+            do for [k=1:Nrows] {
+                a = A[k]
+                b = B[k]
+                set label front sprintf('$%g:%g$', a, b) center at screen -0.05,1.00-(0.07+0.855/(Nrows-1)*(k-1))
+            }
+        }
+
+        plot [0:2*pi] sin(a*t + phi),sin(b*t) with lines linestyle 1
+    }
+}
