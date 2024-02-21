@@ -71,7 +71,7 @@ If you are interested in seeing what configuration options I use, check out
 
 ### Electronics engineering
 - [KiCAD](https://kicad-pcb.org/) electronics design automation suite
-- [CircuitJS1](https://www.falstad.com/circuit/) online circuit simulator
+- [CircuitJS1](https://www.falstad.com/circuit/) online circuit simulator
 
 ### CNC
 - [Grbl](https://github.com/gnea/grbl) CNC machine firmware
@@ -89,6 +89,7 @@ If you are interested in seeing what configuration options I use, check out
 - [MQTT IO](https://github.com/flyte/mqtt-io) for exposing RPi GPIO via MQTT
 - [Zigbee2MQTT](https://www.zigbee2mqtt.io/)
 - [Traccar](https://www.traccar.org/)
+- [AppDaemon](https://appdaemon.readthedocs.io/en/latest/)
 {{< todo >}}
 - TODO separate page for HA
 {{< /todo >}}
