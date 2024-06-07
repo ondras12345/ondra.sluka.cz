@@ -13,7 +13,7 @@ math: true
 <div lang="cs">
 {{< figure src="featured.png" >}}
 
-V roce 2022 jsem zpracoval pro kamaráda zpracoval šablonu pro technickou
+V roce 2022 jsem pro kamaráda zpracoval šablonu pro technickou
 zprávu na předmět [KEV/TDO](https://courseware.zcu.cz/portal/studium/courseware/kev/tdo/) (Technická dokumentace a systémy CAD) na FEL ZČU v
 sázecím systému $\LaTeX$. On ji nakonec nepoužil, tak jsem se rozhodl ji
 zveřejnit. Nejde o oficiální šablonu, její použití je na vlastní nebezpečí.
