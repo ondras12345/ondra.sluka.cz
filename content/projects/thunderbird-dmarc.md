@@ -8,4 +8,4 @@ tags: []
 categories: ["software"]
 externalLink: https://github.com/ondras12345/thunderbird-dmarc
 ---
-
+https://github.com/ondras12345/thunderbird-dmarc

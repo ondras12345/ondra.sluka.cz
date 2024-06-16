@@ -8,6 +8,6 @@ tags:
   - Mikrotik
 categories:
  - software
-externalLink: "https://github.com/ondras12345/mikrotik-ssh-backup"
+externalLink: https://github.com/ondras12345/mikrotik-ssh-backup
 ---
-
+https://github.com/ondras12345/mikrotik-ssh-backup

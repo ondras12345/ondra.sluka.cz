@@ -8,4 +8,4 @@ tags: []
 categories: ["software"]
 externalLink: https://github.com/xou816/spot/blob/development/po/cs.po
 ---
-
+https://github.com/xou816/spot/blob/development/po/cs.po

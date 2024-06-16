@@ -11,3 +11,4 @@ externalLink: https://github.com/ondras12345/AlarmClock
 {{< todo >}}
 TODO proper page about AlarmClock project + pdf documentation
 {{< /todo >}}
+https://github.com/ondras12345/AlarmClock
