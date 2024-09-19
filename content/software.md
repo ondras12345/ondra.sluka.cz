@@ -74,15 +74,20 @@ If you are interested in seeing what configuration options I use, check out
 - [CircuitJS1](https://www.falstad.com/circuit/) online circuit simulator
 
 ### CNC
+Common:
+- [pcb2gcode](https://github.com/pcb2gcode/pcb2gcode) command-line tool for
+  isolation, routing and drilling of PCBs
+- [FlatCAM](http://flatcam.org/) PCB CAM - no longer actively used
+- [FreeCAD](https://www.freecadweb.org/) 3D CAD modeler and CAM
+
+[Old machine](/projects/1610-cnc/):
 - [Grbl](https://github.com/gnea/grbl) CNC machine firmware
 - [bCNC](https://github.com/vlachoudis/bCNC) Grbl controller
 - [Candle](https://github.com/Denvi/Candle) Grbl controler - no longer
   actively used
-- [pcb2gcode](https://github.com/pcb2gcode/pcb2gcode) command-line tool for
-  isolation, routing and drilling of PCBs
-- [FlatCAM](http://flatcam.org/) PCB CAM - no longer actively used
-- [FreeCAD](https://www.freecadweb.org/) 3D CAD modeler
-- ([More information about my CNC](/projects/1610-cnc/))
+
+New machine:
+- [LinuxCNC](https://linuxcnc.org/) motion controller
 
 ### Home automation
 - [Home Assistant](https://www.home-assistant.io/)
