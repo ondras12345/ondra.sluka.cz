@@ -38,13 +38,14 @@ If you are interested in seeing what configuration options I use, check out
 - [Vifm](https://vifm.info/) file manager with Vim-like key bindings
 - [FileZilla](https://filezilla-project.org/) FTP client
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) terminal emulator and serial console
-- [GNU Octave](https://www.gnu.org/software/octave/index) scientific programming language
 - [Doxygen](https://doxygen.nl/) documentation generator
 
 ### Document creation and data processing
 - [TeX Live](https://www.tug.org/texlive/) TeX distribution
 - [gnuplot](http://www.gnuplot.info/) graphing utility
 - [Jupyter Notebook](https://jupyter.org/)
+- [GNU Octave](https://www.gnu.org/software/octave/index) scientific programming language
+- [OpenModelica](https://openmodelica.org/) Modelica environment for modeling of dynamic systems
 
 ### Note taking
 - [I use todo.txt and Markdown files for my
@@ -68,10 +69,15 @@ If you are interested in seeing what configuration options I use, check out
 - [Audacity](https://www.audacityteam.org/) audio editor
 - [VLC](https://www.videolan.org/vlc/) media player
 - [Spot](https://github.com/xou816/spot) native Spotify client for the GNOME desktop
+- [Mopidy](https://mopidy.com/) extensible music server
+- [Snapcast](https://github.com/badaix/snapcast) synchronous multiroom audio player
 
 ### Electronics engineering
 - [KiCAD](https://kicad-pcb.org/) electronics design automation suite
 - [CircuitJS1](https://www.falstad.com/circuit/) online circuit simulator
+- [InvenTree](https://inventree.org/) inventory management system
+- [inventree\_part\_import](https://github.com/30350n/inventree_part_import) CLI to import parts from suppliers like DigiKey, LCSC, Mouser, etc. to InvenTree 
+- [inventree\_kicad](https://github.com/afkiwers/inventree_kicad) KiCad EDA conform API endpoint for InvenTree
 
 ### CNC
 Common:
