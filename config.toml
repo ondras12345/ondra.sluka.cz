@@ -64,9 +64,15 @@ paginate = 25
   url = "https://community.home-assistant.io/u/ondras12345/summary"
 
 [[params.social]]
+  name = "Printables"
+  icon = "custom-icon custom-icon-printables"
+  weight = 3
+  url = "https://www.printables.com/@OndrejSluka_2441530"
+
+[[params.social]]
   name = "RSS"
   icon = "fa fa-rss fa-2x"
-  weight = 3
+  weight = 4
   url = "/index.xml"
 
 [[menu.main]]
