@@ -1,6 +1,7 @@
 ---
 draft: false
 date: 2022-08-10T00:29:22+02:00
+lastmod: 2025-06-02T13:20:00+02:00
 title: "List of Free Software I Use"
 description: ""
 tags:
@@ -46,6 +47,8 @@ If you are interested in seeing what configuration options I use, check out
 - [Jupyter Notebook](https://jupyter.org/)
 - [GNU Octave](https://www.gnu.org/software/octave/index) scientific programming language
 - [OpenModelica](https://openmodelica.org/) Modelica environment for modeling of dynamic systems
+- [OMPython](https://github.com/OpenModelica/OMPython/) Python interface to OpenModelica
+- [python-control](http://python-control.org/) Python Control Systems Library
 
 ### Note taking
 - [I use todo.txt and Markdown files for my
@@ -59,6 +62,7 @@ If you are interested in seeing what configuration options I use, check out
   (fork by dbeniamine)
 - [todo.txt-cli](https://github.com/todotxt/todo.txt-cli)
   and [some add-ons](https://github.com/ondras12345/dotfiles/tree/linux/.config/todo/actions.d)
+- [Radicale](https://radicale.org/v3.html) CalDAV and CardDAV server
 
 ### Media
 - [Inkscape](https://inkscape.org/) vector graphics editor
