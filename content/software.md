@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2022-08-10T00:29:22+02:00
-lastmod: 2025-06-02T13:20:00+02:00
+lastmod: 2025-07-01T15:33:00+02:00
 title: "List of Free Software I Use"
 description: ""
 tags:
@@ -32,6 +32,7 @@ If you are interested in seeing what configuration options I use, check out
 - [Ubuntu](https://ubuntu.com/) GNU/Linux distribution
 - [Lubuntu](https://lubuntu.me/) GNU/Linux distribution
 - [LineageOS](https://lineageos.org/) Android distribution
+- [Zephyr](https://www.zephyrproject.org/) RTOS
 
 ### Programming, file management
 - [Git](https://git-scm.com/) distributed version control system
