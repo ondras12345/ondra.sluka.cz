@@ -50,6 +50,7 @@ If you are interested in seeing what configuration options I use, check out
 - [OpenModelica](https://openmodelica.org/) Modelica environment for modeling of dynamic systems
 - [OMPython](https://github.com/OpenModelica/OMPython/) Python interface to OpenModelica
 - [python-control](http://python-control.org/) Python Control Systems Library
+- [JabRef](https://www.jabref.org/) citation / reference manager
 
 ### Note taking
 - [I use todo.txt and Markdown files for my
