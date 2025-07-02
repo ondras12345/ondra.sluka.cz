@@ -15,7 +15,7 @@ categories:
 series:
 ---
 {{< figure src="temperature.png"
-    caption="Overlayed daily temperature graph in Home Assistant"
+    caption="Overlaid daily temperature graph in Home Assistant"
 >}}
 
 This is just a quick post documenting how I set up the above graph in Home
