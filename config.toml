@@ -76,7 +76,7 @@ paginate = 25
   url = "/index.xml"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Posts"
   weight = 1
   url  = "posts/"
 [[menu.main]]

@@ -5,7 +5,7 @@ title: "Making an Ugee HY1060 Graphics Tablet (UC-LOIC TABLET 1060) Work in Ubun
 description: >-
   Ubuntu 20.04 shipped with a broken version of `60-input-id.hwdb` that did
   not work with my graphics tablet and I spent so much time trying to fix it
-  that I made a blog post about it.
+  that I made a post about it.
 featured_image: ""
 tags:
   - GNU/Linux
