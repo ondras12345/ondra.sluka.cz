@@ -14,8 +14,8 @@ series:
 {{< figure src="favicon-C64.png" width="100%" >}}
 
 This is a followup to my
-[previous post](/posts/making-a-cool-favicon-for-the-website/), so make sure
-to check that out first.
+[previous post](/posts/2021-01-17-making-a-cool-favicon-for-the-website/),
+so make sure to check that out first.
 
 What would a favicon be good for if you couldn't display it on a Commodore 64?
 Just kidding. I needed an excuse to practice my BASIC programming skills.
