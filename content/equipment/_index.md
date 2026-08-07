@@ -10,7 +10,6 @@ Teardown photos, useful links, tips and tricks and custom modifications.
 
 Other equipment I own:
 - Korad KA3005P programmable power supply
-- Diametral AC250K1D programmable AC power supply
 - Metra M1T242 digital multimeter with nixie tube display
 - Owon B35T digital multimeter with Bluetooth
 - Saleae Logic16 logic analyzer
