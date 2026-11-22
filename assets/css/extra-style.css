@@ -16,10 +16,10 @@ details[open] {
     background-position: center;
 }
 .custom-icon.custom-icon-homeassistant:before {
-    background-image: url(https://www.home-assistant.io/images/favicon-192x192.png);
+    background-image: url(/images/homeassistant-192x192.png);
 }
 .custom-icon.custom-icon-printables:before {
-    background-image: url(https://www.printables.com/favicons/favicon-32x32.png);
+    background-image: url(/images/printables-32x32.png);
 }
 
 
