@@ -45,6 +45,7 @@ If you are interested in seeing what configuration options I use, check out
 ### Document creation and data processing
 - [TeX Live](https://www.tug.org/texlive/) TeX distribution
 - [gnuplot](http://www.gnuplot.info/) graphing utility
+- [Ipe](https://ipe.otfried.org/) vector drawing editor
 - [Jupyter Notebook](https://jupyter.org/)
 - [GNU Octave](https://www.gnu.org/software/octave/index) scientific programming language
 - [OpenModelica](https://openmodelica.org/) Modelica environment for modeling of dynamic systems
