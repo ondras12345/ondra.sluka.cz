@@ -3,7 +3,6 @@ draft: false
 date: 2026-07-13T18:43:27+02:00
 title: "DIAMETRAL AC250K1D Power Supply"
 description: "Teardown photos of DIAMETRAL AC250K1D "
-featured_image: ""
 tags:
   - power supply
   - teardown
